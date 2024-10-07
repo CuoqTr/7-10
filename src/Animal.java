@@ -69,12 +69,4 @@ public class Farm {
             System.out.println(animal.name + " can swim: " + animal.CanSwin() + ", can walk: " + animal.CanWalk());
         }
     }
-
-public static void main(String[] args) {
-    Farm farm = new Farm();
-    farm.Add(new Pig("Lon"));
-    farm.Add(new Duck("Vit"));
-    farm.Add(new Fish("Ca"));
-    farm. printCanSwinandCanWalk();
-    }
 }
